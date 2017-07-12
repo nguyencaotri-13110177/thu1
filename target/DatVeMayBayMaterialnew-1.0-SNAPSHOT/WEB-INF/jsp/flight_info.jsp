@@ -27,7 +27,7 @@
         <!--End of Zendesk Chat Script-->
 
 
-        <!-- Check Thông tin thanh toán -->
+        <!-- Check Thông tin nguoi thanh toán -->
         <script>
             function CheckThongTinThanhToan() {
                 var TTHoTen = document.getElementById("TTHoTen").value;
@@ -43,6 +43,9 @@
 
             }
         </script>
+
+        <!-- Check truong rong -->
+        
 
         <!--Event Xác nhận Email cung cấp là chính xác-->
         <script>
@@ -78,7 +81,7 @@
                 <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Thay đổi</a>
             </div>
         </div>
-        
+
         <!-- Modal CheckThongTinThanhToan -->
         <div id="ModalCheckThongTinThanhToan" class="modal">
             <div class="modal-content">
@@ -90,8 +93,8 @@
             </div>
         </div>
         <!-- End Modal CheckThongTinThanhToan -->
-        
-        
+
+
 
         <div class="container">
             <div class="section">
@@ -104,24 +107,23 @@
                                     <form action="thanhtoan" >
                                         <center><img src="resources/img/payer.gif" style="margin: left" width="50" height="50"><h5><b>Thông tin khách hàng thanh toán</b></h5></center><br>
                                         <div class="row">
-
                                             <div class="row">
                                                 <div class="input-field col s6">
-                                                    <input id="TTHoTen" type="text" class="validate">
+                                                    <input id="TTHoTen" type="text" class="valid" data-error="" required="required" aria-required="true">
                                                     <label for="last_name">Họ tên</label>
                                                 </div>
                                                 <div class="input-field col s6">
-                                                    <input id="TTCMND" type="text" class="validate">
+                                                    <input id="TTCMND" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                     <label for="last_name">CMND</label>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="input-field col s6">
-                                                    <input id="TTSDT" type="text" class="validate">
+                                                    <input id="TTSDT" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                     <label for="last_name">SDT</label>
                                                 </div>
                                                 <div class="input-field col s6">
-                                                    <input id="TTEmail" type="email" class="validate">
+                                                    <input id="TTEmail" type="email" class="valid" data-error="" required="required" aria-required="true">
                                                     <label for="email">Email</label>
                                                 </div>
                                             </div>
@@ -141,11 +143,11 @@
                                                 <div class="row">
                                                     <div class="row">
                                                         <div class="input-field col s6">
-                                                            <input id="last_name" type="text" class="validate">
+                                                            <input id="tenNL${i}" type="text" class="valid" data-error="" required="required" aria-required="true">
                                                             <label for="last_name">Họ tên</label>
                                                         </div>
                                                         <div class="input-field col s6">
-                                                            <input id="last_name" type="text" class="validate">
+                                                            <input id="cmndNL${i}" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                             <label for="last_name">CMND</label>
                                                         </div>
                                                     </div>
@@ -154,15 +156,15 @@
                                                             Ngày sinh:
                                                             <div class="input-field inline">
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="ngayNL${i}" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Ngày</label>
                                                                 </div>
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="thangNL${i}" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Tháng</label>
                                                                 </div>
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="namNL${i}" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Năm</label>
                                                                 </div>
 
@@ -177,7 +179,7 @@
                                                 <div class="row">
                                                     <div class="row">
                                                         <div class="input-field col s6">
-                                                            <input id="last_name" type="text" class="validate">
+                                                            <input id="last_name" type="text" class="valid" data-error="" required="required" aria-required="true">
                                                             <label for="last_name">Họ tên</label>
                                                         </div>
 
@@ -187,15 +189,15 @@
                                                             Ngày sinh:
                                                             <div class="input-field inline">
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="last_name" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Ngày</label>
                                                                 </div>
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="last_name" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Tháng</label>
                                                                 </div>
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="last_name" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Năm</label>
                                                                 </div>
 
@@ -210,7 +212,7 @@
                                                 <div class="row">
                                                     <div class="row">
                                                         <div class="input-field col s6">
-                                                            <input id="last_name" type="text" class="validate">
+                                                            <input id="last_name" type="text" class="valid" data-error="" required="required" aria-required="true">
                                                             <label for="last_name">Họ tên</label>
                                                         </div>
 
@@ -220,15 +222,15 @@
                                                             Ngày sinh:
                                                             <div class="input-field inline">
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="last_name" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Ngày</label>
                                                                 </div>
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="last_name" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Tháng</label>
                                                                 </div>
                                                                 <div class="input-field col s4">
-                                                                    <input id="last_name" type="text" class="validate">
+                                                                    <input id="last_name" type="number" class="valid" data-error="" required="required" aria-required="true">
                                                                     <label for="last_name">Năm</label>
                                                                 </div>
 

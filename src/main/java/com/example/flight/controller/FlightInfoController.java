@@ -110,6 +110,7 @@ public class FlightInfoController {
             if (SearchResult2.ListKetQua.get(i).getId().equals(id)) {
                 mm.addAttribute("searchResult", SearchResult2.ListKetQua.get(i));
                 SearchResult2.TongGiaTien=SearchResult2.ListKetQua.get(i).getTongTienText2();
+                SearchResult2.Hang=SearchResult2.ListKetQua.get(i).getHang();
             }
         }
 

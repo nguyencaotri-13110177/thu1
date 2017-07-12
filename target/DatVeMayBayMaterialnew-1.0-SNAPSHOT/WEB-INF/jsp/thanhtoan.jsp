@@ -40,6 +40,7 @@
                 <div class="row">
                     <div class="col s12">
                         <h4><spring:message code="thanhtoan.ChooseAFormOfPayment"/></h4>
+                        <h6 style="color: red">Vé đã được giữ trong vòng 60 phút. Vui lòng thanh toán trước: ${ThanhToanTruoc}</h6>
                     </div>
                     <div class="col s12">
                         <ul class="collapsible" data-collapsible="accordion">
@@ -86,7 +87,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
 

@@ -40,20 +40,15 @@
                 <div class="row">
                     <div class="col s12">
                         <h4>Hướng dẫn thanh toán qua MOMO</h4>
-                        <h6 style="color: red">! Hướng dẫn thanh toán đã được gởi vào email của bạn</h6>
+                        
                     </div>
                     <div class="col s12">
 
-                        <div class="col s12">
-                                <div class="card-panel ">
-                                    <span>1. Tiến hành thanh toán trước hh:mm hôm nay
-                                    </span>
-                                </div>
-                        </div>
+                        
                         
                         <div class="col s12">
                             <div class="card-panel ">
-                                <span>2. Thanh toán<br>
+                                <span>Huong Dan Thanh Toán:<br>
                                     Mã thanh toán MOMO: 9704 1800 5909 9440<br>
                                     Nội dung thanh toán:     Thanh toán đặt chỗ ${id}<br>
                                     Số tiền:    ${TongTien} VND<br>
@@ -62,12 +57,7 @@
                             </div>
                         </div>
                         
-                        <div class="col s12">
-                            <div class="card-panel ">
-                                <span>3. Sau khi xác nhận thanh toán, chúng tôi sẽ gởi Email cho bạn<br>
-                                </span>
-                            </div>
-                        </div>
+                        
 
                     </div>
                 </div>

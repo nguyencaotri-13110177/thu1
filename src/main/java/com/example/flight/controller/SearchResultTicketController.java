@@ -46,7 +46,7 @@ public class SearchResultTicketController {
 
     private static final String APPLICATION_NAME = "FlightTicket";
 
-    private static final String API_KEY = "AIzaSyBRa4PpdFfSzNngEs5dA85o2pW46b4UKvo"; //Key giới hạn 50 lượt request/ 1 ngày
+    private static final String API_KEY = "AIzaSyDi2ToDM2o7TfmP6u0NGkwYbajYUbzjoyw"; //Key giới hạn 50 lượt request/ 1 ngày
 
     /**
      * Global instance of the HTTP transport.

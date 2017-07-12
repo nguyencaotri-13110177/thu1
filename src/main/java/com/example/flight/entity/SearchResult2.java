@@ -7,4 +7,5 @@ public class SearchResult2 {
     
     public static String id;
     public static String TongGiaTien;
+    public static String Hang;
 }
